@@ -1,0 +1,25 @@
+// File creato da Bernardello Alessio
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Inserisci il valore per la variabile a: ";
+    char a;
+    cin >> a;
+
+    cout << "Inserisci il valore per la variabile b: ";
+    char b;
+    cin >> b;
+
+    cout << endl << "a vale " << a;
+    cout << endl << "b vale " << b;
+
+    char c = a;
+    a = b;
+    b = c;
+
+    cout << endl << "a vale " << a;
+    cout << endl << "b vale " << b;
+
+    return 0;
+}
